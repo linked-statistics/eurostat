@@ -43,22 +43,22 @@ Remarks
 
 2) Reuse code from [linked-eurostat](http://code.google.com/p/linked-eurostat/) for Dataset RDFication.
 
-3) Use [our own code](https://github.com/LATC/EU-data-cloud/tree/master/institutions/Eurostat/parser/src) for DSD RDFication.
+3) Use [our own code](https://github.com/linked-statistics/eurostat/tree/master/parser/src) for DSD RDFication.
 
 
 Batch Scripts
 =============
-Detailed description on each script can be found at this [page](https://github.com/LATC/EU-data-cloud/wiki/Batch-Scripts)
+Detailed description on each script can be found at this [page](https://github.com/linked-statistics/eurostat/wiki/Scripts)
 
 
 Steps to RDFize EuroStat data
 =============================
-The RDFication process can be found at this [page](https://github.com/LATC/EU-data-cloud/wiki/Eurostat-RDFication-process)
+The RDFication process can be found at this [page](https://github.com/linked-statistics/eurostat/wiki/Usage)
 
 
 How to convert a single dataset to RDF
 ======================================
-* The best way to test the RDFication process is to use `Main.sh` script. You are required to download the *.zip file(s) in a directory before running the script. It can be achieved by running `EurostatMirror.sh.
+* The best way to test the RDFication process is to use `Main.sh` script. You are required to download the `*.zip` file(s) in a directory before running the script. It can be achieved by running `EurostatMirror.sh.`
 * Change the directory path variables in the `Main.sh` to your desired directory paths. Make sure that the directories *exists* before running the script.
 * How to run : `sh Main.sh -i ~/sdmx-code.ttl -l ~/logs/`
 
